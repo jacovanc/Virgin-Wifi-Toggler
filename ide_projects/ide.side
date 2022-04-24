@@ -1,0 +1,328 @@
+{
+  "id": "2716858c-ffee-4885-8ff5-2314b1d95832",
+  "version": "2.0",
+  "name": "wifi",
+  "url": "http://192.168.0.1",
+  "tests": [{
+    "id": "51d2c2b8-3a9f-4893-9796-cec48568bde1",
+    "name": "turnoff",
+    "commands": [{
+      "id": "9ff95e27-8bcf-45af-91df-e6b120573afe",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "76706637-acfa-46a5-8f07-702952fd0578",
+      "comment": "",
+      "command": "click",
+      "target": "id=Password",
+      "targets": [
+        ["id=Password", "id"],
+        ["css=#Password", "css:finder"],
+        ["xpath=//input[@id='Password']", "xpath:attributes"],
+        ["xpath=//span[@id='fmInp-Password']/span/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f812c82c-032e-4d0f-a028-2689d9b9b8ce",
+      "comment": "",
+      "command": "type",
+      "target": "id=Password",
+      "targets": [
+        ["id=Password", "id"],
+        ["css=#Password", "css:finder"],
+        ["xpath=//input[@id='Password']", "xpath:attributes"],
+        ["xpath=//span[@id='fmInp-Password']/span/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "77470942"
+    }, {
+      "id": "0b8031fd-90f3-47e3-a0de-082fc0652ded",
+      "comment": "",
+      "command": "click",
+      "target": "css=.submitBtn",
+      "targets": [
+        ["css=.submitBtn", "css:finder"],
+        ["xpath=//input[@value='Next']", "xpath:attributes"],
+        ["xpath=//div[@id='Login']/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e3b6f780-47e8-4c60-aea3-6c42d1fe3e42",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Advanced settings",
+      "targets": [
+        ["linkText=Advanced settings", "linkText"],
+        ["css=#AdvancedSettings > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Advanced settings')]", "xpath:link"],
+        ["xpath=//li[@id='AdvancedSettings']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'javascript:;')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Advanced settings')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c3c03a3e-c947-4ed7-99bc-fe6a31cf0e9d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Wireless",
+      "targets": [
+        ["linkText=Wireless", "linkText"],
+        ["css=#Wireless > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Wireless')]", "xpath:link"],
+        ["xpath=//li[@id='Wireless']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:;')])[2]", "xpath:href"],
+        ["xpath=//li[4]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Wireless')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c0570b92-b790-4ec2-bdc7-a4e4cabeee8d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Wireless signal",
+      "targets": [
+        ["linkText=Wireless signal", "linkText"],
+        ["css=#WirelessSignal > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Wireless signal')]", "xpath:link"],
+        ["xpath=//li[@id='WirelessSignal']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/?wifi_radio&mid=WirelessSignal')]", "xpath:href"],
+        ["xpath=//li[4]/ul/li/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Wireless signal')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "40d1245e-dc1c-4e3a-ae70-a1c8c8bc65a3",
+      "comment": "",
+      "command": "click",
+      "target": "id=fmRbtn-Disable24",
+      "targets": [
+        ["id=fmRbtn-Disable24", "id"],
+        ["css=#fmRbtn-Disable24", "css:finder"],
+        ["xpath=//a[@id='fmRbtn-Disable24']", "xpath:attributes"],
+        ["xpath=//div[@id='tr_Disable24']/a", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c2b6b3ba-95b8-4acd-a3e2-0b5d2b86a976",
+      "comment": "",
+      "command": "click",
+      "target": "id=commonApply",
+      "targets": [
+        ["id=commonApply", "id"],
+        ["css=#commonApply", "css:finder"],
+        ["xpath=//input[@id='commonApply']", "xpath:attributes"],
+        ["xpath=//div[@id='mainpage']/div/div[7]/input", "xpath:idRelative"],
+        ["xpath=//div[7]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8aa626a5-d785-405f-ae21-7c12ce23326a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Log out",
+      "targets": [
+        ["linkText=Log out", "linkText"],
+        ["css=#logout > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Log out')]", "xpath:link"],
+        ["xpath=//a[@onclick='{ _onclick_0(arguments[0]);}']", "xpath:attributes"],
+        ["xpath=//div[@id='logout']/a", "xpath:idRelative"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Log out')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a0137ad-3091-46bf-9624-4a78facdf379",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "da6122d0-2b73-4a65-b5a5-068b2d8e97fa",
+    "name": "turnon",
+    "commands": [{
+      "id": "b7f0133d-d828-4850-8b19-2a6651ab52b3",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "20ad6a96-a23b-4d7b-b41d-e729c194fa60",
+      "comment": "",
+      "command": "click",
+      "target": "id=Password",
+      "targets": [
+        ["id=Password", "id"],
+        ["css=#Password", "css:finder"],
+        ["xpath=//input[@id='Password']", "xpath:attributes"],
+        ["xpath=//span[@id='fmInp-Password']/span/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "da0a06c2-4f71-48e2-a275-e7f1072cb726",
+      "comment": "",
+      "command": "type",
+      "target": "id=Password",
+      "targets": [
+        ["id=Password", "id"],
+        ["css=#Password", "css:finder"],
+        ["xpath=//input[@id='Password']", "xpath:attributes"],
+        ["xpath=//span[@id='fmInp-Password']/span/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "77470942"
+    }, {
+      "id": "6b342f3d-b86d-497a-8a56-f24d6d760b4a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.submitBtn",
+      "targets": [
+        ["css=.submitBtn", "css:finder"],
+        ["xpath=//input[@value='Next']", "xpath:attributes"],
+        ["xpath=//div[@id='Login']/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8c87eb38-6ed3-4aff-8b85-3229228b96f1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Advanced settings",
+      "targets": [
+        ["linkText=Advanced settings", "linkText"],
+        ["css=#AdvancedSettings > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Advanced settings')]", "xpath:link"],
+        ["xpath=//li[@id='AdvancedSettings']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'javascript:;')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Advanced settings')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "12a4ba15-3977-44ce-ab1e-27f3c5ae4d06",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Wireless",
+      "targets": [
+        ["linkText=Wireless", "linkText"],
+        ["css=#Wireless > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Wireless')]", "xpath:link"],
+        ["xpath=//li[@id='Wireless']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:;')])[2]", "xpath:href"],
+        ["xpath=//li[4]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Wireless')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "229db6cb-822a-4b7d-b11e-80317ec003e3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Wireless signal",
+      "targets": [
+        ["linkText=Wireless signal", "linkText"],
+        ["css=#WirelessSignal > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Wireless signal')]", "xpath:link"],
+        ["xpath=//li[@id='WirelessSignal']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/?wifi_radio&mid=WirelessSignal')]", "xpath:href"],
+        ["xpath=//li[4]/ul/li/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Wireless signal')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0f8f87f-589e-4285-8765-934063043c5d",
+      "comment": "",
+      "command": "click",
+      "target": "id=fmRbtn-Enable24",
+      "targets": [
+        ["id=fmRbtn-Enable24", "id"],
+        ["css=#fmRbtn-Enable24", "css:finder"],
+        ["xpath=//a[@id='fmRbtn-Enable24']", "xpath:attributes"],
+        ["xpath=//div[@id='tr_Enable24']/a", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,' ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "17cf408f-16ee-40c3-9555-e9f03f2e9a08",
+      "comment": "",
+      "command": "click",
+      "target": "id=commonApply",
+      "targets": [
+        ["id=commonApply", "id"],
+        ["css=#commonApply", "css:finder"],
+        ["xpath=//input[@id='commonApply']", "xpath:attributes"],
+        ["xpath=//div[@id='mainpage']/div/div[7]/input", "xpath:idRelative"],
+        ["xpath=//div[7]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fdb91c74-6185-4744-adba-60987a5213bb",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=commonApply",
+      "targets": [
+        ["id=commonApply", "id"],
+        ["css=#commonApply", "css:finder"],
+        ["xpath=//input[@id='commonApply']", "xpath:attributes"],
+        ["xpath=//div[@id='mainpage']/div/div[7]/input", "xpath:idRelative"],
+        ["xpath=//div[7]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "20412533-e00c-49c3-9008-e858847b71f7",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=commonApply",
+      "targets": [
+        ["id=commonApply", "id"],
+        ["css=#commonApply", "css:finder"],
+        ["xpath=//input[@id='commonApply']", "xpath:attributes"],
+        ["xpath=//div[@id='mainpage']/div/div[7]/input", "xpath:idRelative"],
+        ["xpath=//div[7]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd726869-2fa6-489d-80fb-fcc25890a915",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Log out",
+      "targets": [
+        ["linkText=Log out", "linkText"],
+        ["css=#logout > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Log out')]", "xpath:link"],
+        ["xpath=//a[@onclick='{ _onclick_0(arguments[0]);}']", "xpath:attributes"],
+        ["xpath=//div[@id='logout']/a", "xpath:idRelative"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Log out')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "625a628a-e308-45d1-9efb-4e4332dbb32b",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "b9f8cc6f-b512-41cb-a7af-1beffb640ba6",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["http://192.168.0.1/"],
+  "plugins": []
+}

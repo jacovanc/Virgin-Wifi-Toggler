@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "selenium-webdriver": "^4.1.1"
+  },
+  "scripts": {
+	  "wifi": "node files/run.js"
+  }
+}
