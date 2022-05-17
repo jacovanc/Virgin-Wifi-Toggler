@@ -1,3 +1,6 @@
+const config = require('config');
+const password = config.get('password');
+
 const {Builder, By} = require('selenium-webdriver');
 const chrome = require('selenium-webdriver/chrome');
 
@@ -18,7 +21,7 @@ async function init(mode = "on") {
 
 	console.log("Logging in...");
     await driver.findElement(By.id("Password")).click()
-    await driver.findElement(By.id("Password")).sendKeys("77470942")
+    await driver.findElement(By.id("Password")).sendKeys(password)
     await driver.findElement(By.css(".submitBtn")).click()
 
 	if(mode == "on") {
